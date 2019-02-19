@@ -5,5 +5,5 @@ from .views import post_model_list
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', post_model_list(), name='post_model_list')
+    path('', post_model_list, name='post_model_list')
 ]
