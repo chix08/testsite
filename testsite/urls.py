@@ -21,6 +21,6 @@ from blog_posts import views as blog_posts_views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('postmodel/', blog_posts_views.post_model_list, name='lists'),
-
+ 
 
 ]
